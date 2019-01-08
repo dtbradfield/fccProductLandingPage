@@ -1,0 +1,20 @@
+header {
+    position: fixed;
+  }
+  #nav-bar {
+    position: fixed;
+    text-align: center;
+    margin-left: 80%;
+  }
+  
+  @media screen and (min-width: 500px) {
+    #sign-up {
+      background-color: lightgray;
+    }
+  }
+  
+  #how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
